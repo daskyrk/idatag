@@ -1,0 +1,254 @@
+@CHARSET "UTF-8";
+body {
+	width: 1024px;
+	min-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#top{
+	position: fixed;
+	top: 0;
+	width: inherit;
+	z-index: 100000;
+	background-color: white;
+}
+
+.top-container-left{
+	width: 10%;
+	float:left;
+}
+
+.top-container-right{
+	width: 90%;
+	float: right;
+}
+
+ul.main-menu {
+	float: right;
+	margin-bottom: 0px;
+}
+
+ul.main-menu li {
+	float: left;
+	list-style: outside none none;
+}
+
+ul.main-menu li .menu-btn {
+    color: #888888;
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 23px 25px 0px 25px;
+    cursor: pointer;
+    text-align: center;
+}
+
+ul.main-menu li .menu-btn:hover {
+	color: #009ee3;
+	border-bottom: 2px solid #009ee3;
+}
+
+.current {
+	border-bottom: 2px solid #009ee3;
+}
+
+.carousel-indicators .active {
+	background-color: #009ee3;
+	border: 1px solid #009ee3;
+}
+
+.about-default{
+	background-color: #ffffff;
+	border: 1px solid #009ee3;
+	border-radius: 50%;
+	cursor: pointer;
+	width: 10px;
+	height: 10px;
+	margin: 8px;
+}
+
+.about-active{
+	background-color: #009ee3;
+	border: 1px solid #009ee3;
+	border-radius: 50%;
+	cursor: pointer;
+	width: 10px;
+	height: 10px;
+	margin: 8px;
+}
+
+.aboutImg, .aboutImgHide {
+	margin-top: 30px;
+	cursor: pointer;
+}
+.aboutImgBorder {
+	cursor: pointer;
+}
+
+
+#mainSlider img{
+	width: 1024px;
+	height: 358px;
+}
+
+.cl009ee3{
+	color: #009ee3;
+}
+
+.cl20 {
+	color: #202020;
+}
+
+.cl82 {
+	color: #828282;
+}
+
+.font10{
+	font-size: 1em;
+}
+
+.font11 {
+	font-size: 1.1em;
+}
+
+.font12 {
+	font-size: 1.2em;
+}
+
+.font13 {
+	font-size: 1.3em;
+}
+
+.font14 {
+	font-size: 1.4em;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.padding5{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+span{
+	font-family:'微软雅黑';
+}
+
+.border-right-cl91 {
+	border-right: 1px solid #919191;
+	border-width: 80%;
+}
+
+.team-desc {
+	width: 180px;
+	height:226.5px;
+	background-color: #009ee3;
+	opacity: 0.9;
+	position: absolute;
+	top: 0;
+}
+
+.pasDetil {
+	position: absolute;
+	width: 1024px;
+	height: 340px;
+	z-index: 100;
+	margin-top: -200px;
+	background-color: #009ee3;
+	color: white;
+	z-index: 99;
+}
+
+.hide{
+	display: none;
+}
+
+.none-decoration:hover{
+	text-decoration: none;
+}
+
+.footerMenu {
+	cursor: pointer;
+}
+.footerMenu:hover {
+	color: #009ee3;
+}
+
+.transf45 {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	-ms-transform: rotate(-45deg); /* IE 9 */
+	-moz-transform: rotate(-45deg); /* Firefox */
+	-webkit-transform: rotate(-45deg); /* Safari and Chrome */
+	-o-transform: rotate(-45deg); /* Opera */
+	transform: rotate(-45deg);
+}
+
+/* Services ------------------------------------*/
+.services {
+	background: #07ad87;
+	color: #ffffff;
+	margin:0;
+	padding:0;
+}
+.service-back {
+	padding: 0 6px 0 6px;
+}
+
+/* Styles for the animation effect */
+
+.service {
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transition: transform 1s;
+	-webkit-transition: -webkit-transform 1s;
+	-moz-transition: -moz-transform 1s;
+	-o-transition: -o-transform 1s;
+	-ms-transition: -ms-transform 1s;
+	cursor: pointer;
+}
+.service-front, .service-back {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-transform-visibility: hidden;
+}
+.service-front {
+	position: absolute;
+}
+.service-back {
+	-ms-transform: rotateY( 180deg );
+	-webkit-transform: rotateY( 180deg );
+	-moz-transform: rotateY( 180deg );
+	-o-transform: rotateY( 180deg );
+	transform: rotateY( 180deg );
+	overflow: hidden; 
+	text-overflow:ellipsis;
+}
+.flipped {
+	-ms-transform: rotateY( 180deg );
+	-webkit-transform: rotateY( 180deg );
+	-moz-transform: rotateY( 180deg );
+	-o-transform: rotateY( 180deg );
+	transform: rotateY( 180deg );
+}
+
+
+.carousel-control.left {
+	filter: none;
+}
+
+.carousel-control.right {
+	filter: none;
+}
